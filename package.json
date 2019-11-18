@@ -1,0 +1,26 @@
+{
+  "name": "word-list-anagram",
+  "version": "1.0.7",
+  "description": "The node-anagram API provides endpoints to work with Anagrams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js",
+    "build": "babel src --out-dir lib",
+    "start": "node index.js"
+  },
+  "author": "Tina Sun",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.8",
+    "word-list": "^2.0.0",
+    "transform-runtime": "^0.0.0"
+  }
+}
